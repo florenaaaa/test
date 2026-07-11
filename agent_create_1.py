@@ -59,7 +59,7 @@ messages = [
     {"role": "system", "content": SYSTEM_PROMPT},
     {"role": "user", "content": "Where's the weather in London ?"},
 ]
-# print(messages)
+print(messages)
 output = client.chat.completions.create(
     messages=messages,
     stop=["Observation:"],
