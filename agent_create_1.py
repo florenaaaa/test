@@ -66,23 +66,23 @@ output = client.chat.completions.create(
     max_tokens=200,
     extra_body={'thinking': {'type': 'disabled'}},
 )
-# print(output.choices[0].message.content)
+print(output.choices[0].message.content)
 
-# def get_weather(location):
-#     return f"the weather in {location} is sunny with low temperatures. \n"
-#
-# get_weather("London")
+def get_weather(location):
+    return f"the weather in {location} is sunny with low temperatures. \n"
 
-# messages = [
-#     {"role": "system", "content": SYSTEM_PROMPT},
-#     {"role": "user", "content": "Where's the weather in London ?"},
-#     {"role": "assistant", "content": output.choices[0].message.content + "Observation:\n" + get_weather('London')},
-# ]
-# output = client.chat.completions.create(
-#     messages=messages,
-#     stream=False,
-#     max_tokens=200,
-#     extra_body={'thinking': {'type': 'disabled'}},
-# )
-#
-# print(output.choices[0].message.content)
+get_weather("London")
+
+messages = [
+    {"role": "system", "content": SYSTEM_PROMPT},
+    {"role": "user", "content": "Where's the weather in London ?"},
+    {"role": "assistant", "content": output.choices[0].message.content + "Observation:\n" + get_weather('London')},
+]
+output = client.chat.completions.create(
+    messages=messages,
+    stream=False,
+    max_tokens=200,
+    extra_body={'thinking': {'type': 'disabled'}},
+)
+
+print(output.choices[0].message.content)
