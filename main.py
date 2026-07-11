@@ -14,7 +14,8 @@ def print_age(age):
 def cat(file_path):
     with open(file_path, mode="r", encoding="utf-8") as f:
         print(f.read())
-
+def count(number):
+    print(f"I have {number} dollars")
 # 按装订区域中的绿色按钮以运行脚本。
 if __name__ == '__main__':
     print_hi('PyCharm')
