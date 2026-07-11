@@ -1,0 +1,51 @@
+# ===== 敏感文件：密钥 / 环境变量 =====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+secrets.*
+
+# ===== 敏感数据：合同 / 个人隐私 =====
+contract_text.txt
+合同-*.docx
+合同-extracted/
+表白信_Lily.txt
+meeting_invitation_email.txt
+
+# ===== 向量数据库与索引（chroma）=====
+chroma.sqlite3
+*.sqlite3
+# chroma 自动生成的 HNSW 向量索引目录（UUID 命名）
+????????-????-????-????-????????????/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+
+# ===== 日志 / 临时文件 =====
+*.log
+logging.txt
+新建 文本文档.txt
+
+# ===== makecode 运行缓存 =====
+.makecode/
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
