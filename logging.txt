@@ -1,0 +1,6 @@
+Your Conversation Log:
+You: hi,I am SteveAI: Hi Steve! Nice to meet you. How can I help you today?You: give mu a jokeAI: Sure, Steve! Here's one for you:
+
+Why don't scientists trust atoms?
+
+Because they make up everything! 😄You: who am IAI: You're Steve! You introduced yourself at the beginning of our chat. 😊End of the Conversation

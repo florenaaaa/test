@@ -1,0 +1,81 @@
+
+[2026-04-05T00:11:19.022064] [RunTerminalCommand utf8 decode fallback] UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb1 in position 875: invalid start byte
+Traceback (most recent call last):
+  File "utils\common.py", line 113, in run_terminal_command
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb1 in position 875: invalid start byte
+
+[2026-04-05T00:14:00.203793] [main user input interrupted] KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "main.py", line 515, in <module>
+  File "main.py", line 364, in _read_user_query
+  File "prompt_toolkit\shortcuts\prompt.py", line 1055, in prompt
+  File "prompt_toolkit\application\application.py", line 1002, in run
+  File "asyncio\runners.py", line 195, in run
+  File "asyncio\runners.py", line 118, in run
+  File "asyncio\base_events.py", line 678, in run_until_complete
+  File "asyncio\windows_events.py", line 322, in run_forever
+  File "asyncio\base_events.py", line 645, in run_forever
+  File "asyncio\base_events.py", line 1999, in _run_once
+  File "asyncio\events.py", line 88, in _run
+  File "prompt_toolkit\application\application.py", line 886, in run_async
+  File "prompt_toolkit\application\application.py", line 746, in _run_async
+KeyboardInterrupt
+
+[2026-04-05T00:16:13.930112] [RunTerminalCommand utf8 decode fallback] UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb1 in position 1167: invalid start byte
+Traceback (most recent call last):
+  File "utils\common.py", line 113, in run_terminal_command
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb1 in position 1167: invalid start byte
+
+[2026-04-05T00:20:25.909774] [main user input interrupted] KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "main.py", line 515, in <module>
+  File "main.py", line 364, in _read_user_query
+  File "prompt_toolkit\shortcuts\prompt.py", line 1055, in prompt
+  File "prompt_toolkit\application\application.py", line 1002, in run
+  File "asyncio\runners.py", line 195, in run
+  File "asyncio\runners.py", line 118, in run
+  File "asyncio\base_events.py", line 678, in run_until_complete
+  File "asyncio\windows_events.py", line 322, in run_forever
+  File "asyncio\base_events.py", line 645, in run_forever
+  File "asyncio\base_events.py", line 1999, in _run_once
+  File "asyncio\events.py", line 88, in _run
+  File "prompt_toolkit\application\application.py", line 886, in run_async
+  File "prompt_toolkit\application\application.py", line 746, in _run_async
+KeyboardInterrupt
+
+[2026-04-05T00:24:07.841673] [RunTerminalCommand utf8 decode fallback] UnicodeDecodeError: 'utf-8' codec can't decode byte 0xce in position 0: invalid continuation byte
+Traceback (most recent call last):
+  File "utils\common.py", line 113, in run_terminal_command
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xce in position 0: invalid continuation byte
+
+[2026-04-05T00:34:07.359169] [RunTerminalCommand utf8 decode fallback] UnicodeDecodeError: 'utf-8' codec can't decode byte 0xba in position 251: invalid start byte
+Traceback (most recent call last):
+  File "utils\common.py", line 113, in run_terminal_command
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xba in position 251: invalid start byte
+
+[2026-04-05T00:34:22.005607] [RunTerminalCommand utf8 decode fallback] UnicodeDecodeError: 'utf-8' codec can't decode byte 0xba in position 153: invalid start byte
+Traceback (most recent call last):
+  File "utils\common.py", line 113, in run_terminal_command
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xba in position 153: invalid start byte
+
+[2026-04-05T00:38:12.500959] [RunTerminalCommand utf8 decode fallback] UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbc in position 0: invalid start byte
+Traceback (most recent call last):
+  File "utils\common.py", line 113, in run_terminal_command
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbc in position 0: invalid start byte
+
+[2026-04-05T00:41:04.651408] [main user input interrupted] KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "main.py", line 515, in <module>
+  File "main.py", line 364, in _read_user_query
+  File "prompt_toolkit\shortcuts\prompt.py", line 1055, in prompt
+  File "prompt_toolkit\application\application.py", line 1002, in run
+  File "asyncio\runners.py", line 195, in run
+  File "asyncio\runners.py", line 118, in run
+  File "asyncio\base_events.py", line 678, in run_until_complete
+  File "asyncio\windows_events.py", line 322, in run_forever
+  File "asyncio\base_events.py", line 645, in run_forever
+  File "asyncio\base_events.py", line 1999, in _run_once
+  File "asyncio\events.py", line 88, in _run
+  File "prompt_toolkit\application\application.py", line 886, in run_async
+  File "prompt_toolkit\application\application.py", line 746, in _run_async
+KeyboardInterrupt
