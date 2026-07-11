@@ -1,9 +1,6 @@
 import os
 
-os.environ["LANGFUSE_PUBLIC_KEY"] = "pk-lf-d8fc94d8-2cd3-4c20-9e2c-82280f5e8c4b"
-os.environ["LANGFUSE_SECRET_KEY"] = "sk-lf-bb21630a-14a7-464a-bb81-95848750d762"
-os.environ["LANGFUSE_HOST"] = "https://cloud.langfuse.com"
-os.environ["LANGFUSE_BASE_URL"] = "https://cloud.langfuse.com"
+
 
 from typing import TypedDict, List, Dict, Any, Optional
 from langgraph.graph import StateGraph, END
